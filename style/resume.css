@@ -428,8 +428,8 @@ li {
 	margin: 0 auto;
 	height: 10rem;
 	width: 0;
-	border-left: 0.1px solid #fff;
-	border-right: 0.1px solid #fff; 
+	border-left: .1rem solid #fff;
+	border-right: .1rem solid #fff; 
 }
 .time {
 	position: absolute;
