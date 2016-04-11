@@ -3,7 +3,7 @@
 /* Basic style */
 html, body {
 	width: 100%;
-	min-width: 1280px;
+	min-width: 1200px;
 	font: 10px 'Microsoft YaHei';
 	color: #fff;
 }
@@ -25,6 +25,7 @@ li {
 /* page1 */
 .page1 {
 	height: 92rem;
+	width: 100%;
 }
 .page1-img {
 	height: 36.8rem;
@@ -214,6 +215,7 @@ li {
 .page2 {
 	position: relative;
 	height: 48rem;
+	width: 100%;
 	background: #ED5657;
 	overflow: hidden;
 }
@@ -368,6 +370,7 @@ li {
 .page3 {
 	position: relative;
 	height: 96rem;
+	width: 100%;
 	background: #15698C;
 	overflow: hidden;
 }
@@ -391,6 +394,7 @@ li {
 .page4 {
 	position: relative;
 	height: 55rem;
+	width: 100%;
 	background: #29803C;
 	overflow: hidden;
 }
@@ -465,6 +469,7 @@ li {
 /* page5 */
 .page5 {
 	height: 65rem;
+	width: 100%;
 	background: #4C325D;
 	overflow: hidden;
 }
@@ -514,6 +519,7 @@ li {
 /* footer */
 .footer {
 	height: 10rem;
+	width: 100%;
 	background: #302F2B;
 	overflow: hidden;
 }
