@@ -1,0 +1,390 @@
+@charset utf8;
+
+html,body {
+	margin: 0;
+	padding: 0;
+}
+.percent {
+	position: relative;
+	height: 200px;
+	width:200px;
+}
+.left, .right{
+	position: absolute;
+	height: 200px;
+	width: 100px;
+	overflow: hidden;
+}
+.left {
+	top: 50%;
+	left: 50%;
+	transform: translate(-100%, -50%);
+}
+.right {
+	top: 50%;
+	left: 50%;	
+	transform: translate(0, -50%);
+}
+.circle-left {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 160px;
+	width: 160px;
+	transform: rotate(-135deg);
+	border: 20px solid transparent;
+	border-radius: 50%;
+	border-bottom: 20px solid green;
+	border-left: 20px solid green;
+}
+
+.circle-right {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 160px;
+	width: 160px;
+	transform: rotate(-135deg);
+	border: 20px solid transparent;
+	border-radius: 50%;
+	border-top: 20px solid green;
+	border-right: 20px solid green;
+}
+.circle-middle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 160px;
+	width: 160px;
+	background: #D5A744;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 160px;
+	font-size: 50px;
+	color: #fff;
+}
+
+/* animation */
+
+.left-1 {
+	animation: cl-1 1s linear 1s forwards;
+	border-bottom-color: #008000;
+	border-left-color: #008000;
+}
+.right-1 {
+	animation: cr-1 1s linear forwards;
+	border-top-color: #008000;
+	border-right-color: #008000;
+}
+.middle-1 {
+	animation: ml 2s linear forwards;
+	background: #A0C43E;
+}
+
+.left-2 {
+	animation: cl-2 1s linear 1s forwards;
+	border-bottom-color: #4AB64A;
+	border-left-color: #4AB64A;
+}
+.right-2 {
+	animation: cr-2 1s linear forwards;
+	border-top-color: #4AB64A;
+	border-right-color: #4AB64A;
+}
+.middle-2 {
+	animation: ml 2s linear forwards;
+	background: #A0C43E;
+}
+
+.left-3 {
+	animation: cl-3 1s linear 1s forwards;
+	border-bottom-color: #66E3A4;
+	border-left-color: #66E3A4;
+}
+.right-3 {
+	animation: cr-3 1s linear forwards;
+	border-top-color: #66E3A4;
+	border-right-color: #66E3A4;
+}
+.middle-3 {
+	animation: ml 2s linear forwards;
+	background: #A0C43E;
+}
+
+.left-4 {
+	animation: cl-4 1s linear 1s forwards;
+	border-bottom-color: #66E3A4;
+	border-left-color: #66E3A4;
+}
+.right-4 {
+	animation: cr-4 1s linear forwards;
+	border-top-color: #66E3A4;
+	border-right-color: #66E3A4;
+}
+.middle-4 {
+	animation: ml 2s linear forwards;
+	background: #A0C43E;
+}
+
+.left-5 {
+	animation: cl-5 1s linear 1s forwards;
+	border-bottom-color: #D48C57;
+	border-left-color: #D48C57;
+}
+.right-5 {
+	animation: cr-5 1s linear forwards;
+	border-top-color: #D48C57;
+	border-right-color: #D48C57;
+}
+.middle-5 {
+	animation: ml 2s linear forwards;
+	background: #F18873;
+}
+
+.left-6 {
+	animation: cl-6 1s linear 1s forwards;
+	border-bottom-color: #D48C57;
+	border-left-color: #D48C57;
+}
+.right-6 {
+	animation: cr-6 1s linear forwards;
+	border-top-color: #D48C57;
+	border-right-color: #D48C57;
+}
+.middle-6 {
+	animation: ml 2s linear forwards;
+	background: #F18873;
+}
+
+.left-7 {
+	animation: cl-7 1s linear 1s forwards;
+	border-bottom-color: #66E3A4;
+	border-left-color: #66E3A4;
+}
+.right-7 {
+	animation: cr-7 1s linear forwards;
+	border-top-color: #66E3A4;
+	border-right-color: #66E3A4;
+}
+.middle-7 {
+	animation: ml 2s linear forwards;
+	background: #A0C43E;
+}
+
+.left-7 {
+	animation: cl-8 1s linear 1s forwards;
+	border-bottom-color: #793517;
+	border-left-color: #793517;
+}
+.right-8 {
+	animation: cr-8 1s linear forwards;
+	border-top-color: #793517;
+	border-right-color: #793517;
+}
+.middle-8 {
+	animation: ml 2s linear forwards;
+	background: #F08773;
+}
+
+.left-9 {
+	animation: cl-9 1s linear 1s forwards;
+	border-bottom-color: #4AB64A;
+	border-left-color: #4AB64A;
+}
+.right-9 {
+	animation: cr-9 1s linear forwards;
+	border-top-color: #4AB64A;
+	border-right-color: #4AB64A;
+}
+.middle-9 {
+	animation: ml 2s linear forwards;
+	background: #A0C43E;
+}
+
+.left-10 {
+	animation: cl-10 1s linear 1s forwards;
+	border-bottom-color: #D48C57;
+	border-left-color: #D48C57;
+}
+.right-10 {
+	animation: cr-10 1s linear forwards;
+	border-top-color: #D48C57;
+	border-right-color: #D48C57;
+}
+.middle-10 {
+	animation: ml 2s linear forwards;
+	background: #F18873;
+}
+
+.left-11 {
+	animation: cl-11 1s linear 1s forwards;
+	border-bottom-color: #D48C57;
+	border-left-color: #D48C57;
+}
+.right-11 {
+	animation: cr-11 1s linear forwards;
+	border-top-color: #D48C57;
+	border-right-color: #D48C57;
+}
+.middle-11 {
+	animation: ml 2s linear forwards;
+	background: #F18873;
+}
+
+.left-12 {
+	animation: cl-12 1s linear 1s forwards;
+	border-bottom-color: #9C4C30;
+	border-left-color: #9C4C30;
+}
+.right-12 {
+	animation: cr-12 1s linear forwards;
+	border-top-color: #9C4C30;
+	border-right-color: #9C4C30;
+}
+.middle-12 {
+	animation: ml 2s linear forwards;
+	background: #F18873;
+}
+
+@keyframes ml {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes cl-1 {
+	100% {
+		transform: rotate(-27deg);
+	}
+}
+@keyframes cr-1 {
+	100% {
+		transform: rotate(45deg);
+	}
+}
+
+@keyframes cl-2 {
+	100% {
+		transform: rotate(-63deg);
+	}
+}
+@keyframes cr-2 {
+	100% {
+		transform: rotate(45deg);
+	}
+}
+
+@keyframes cl-3 {
+	100% {
+		transform: rotate(-99deg);
+	}
+}
+@keyframes cr-3 {
+	100% {
+		transform: rotate(45deg);
+	}
+}
+
+@keyframes cl-4 {
+	100% {
+		transform: rotate(-99deg);
+	}
+}
+@keyframes cr-4 {
+	100% {
+		transform: rotate(45deg);
+	}
+}
+
+@keyframes cl-5 {
+	100% {
+		transform: rotate(-135deg);
+	}
+}
+@keyframes cr-5 {
+	100% {
+		transform: rotate(9deg);
+	}
+}
+
+@keyframes cl-6 {
+	100% {
+		transform: rotate(-135deg);
+	}
+}
+@keyframes cr-6 {
+	100% {
+		transform: rotate(9deg);
+	}
+}
+
+@keyframes cl-7 {
+	100% {
+		transform: rotate(-99deg);
+	}
+}
+@keyframes cr-7 {
+	100% {
+		transform: rotate(45deg);
+	}
+}
+
+@keyframes cl-8 {
+	100% {
+		transform: rotate(-135deg);
+	}
+}
+@keyframes cr-8 {
+	100% {
+		transform: rotate(-63deg);
+	}
+}
+
+@keyframes cl-9 {
+	100% {
+		transform: rotate(-63deg);
+	}
+}
+@keyframes cr-9 {
+	100% {
+		transform: rotate(45deg);
+	}
+}
+
+@keyframes cl-10 {
+	100% {
+		transform: rotate(-135deg);
+	}
+}
+@keyframes cr-10 {
+	100% {
+		transform: rotate(9deg);
+	}
+}
+
+@keyframes cl-11 {
+	100% {
+		transform: rotate(-135deg);
+	}
+}
+@keyframes cr-11 {
+	100% {
+		transform: rotate(9deg);
+	}
+}
+
+@keyframes cl-12 {
+	100% {
+		transform: rotate(-135deg);
+	}
+}
+@keyframes cr-12 {
+	100% {
+		transform: rotate(-27deg);
+	}
+}
+
