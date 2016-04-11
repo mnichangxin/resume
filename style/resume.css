@@ -11,9 +11,6 @@ html, body, p, ul, li, a {
 	margin: 0;
 	padding: 0;
 }
-/*body {
-	min-width: 128rem;
-}*/
 a {
 	text-decoration: none;
 	color: #fff;
@@ -245,9 +242,6 @@ li {
 	font-family: 'SimKai';
 	text-align: right;
 }
-.clue {
-	width: 70rem;
-}
 .circle {
 	display: inline-block;
 	height: 1rem;
@@ -269,6 +263,9 @@ li {
 .clue-line2, .clue-line4 {
 	right: -.3rem;
 	bottom: .5rem;
+}
+.clue {
+	width: 70rem;
 }
 .clue-1 {
 	margin-top: 15rem;
@@ -327,42 +324,42 @@ li {
 }
 @keyframes clue1-animation {
 	100% {
-		transform: translate(50%, 0);
+		transform: translate(20rem, 0);
 	} 
 }
 @keyframes clue2-animation {
 	100%{
-		transform: translate(-100%, 0);
+		transform: translate(-80rem, 0);
 	}
 }
 @keyframes clue3-animation {
 	100% {
-		transform: translate(60%, 0);
+		transform: translate(20rem, 0);
 	} 
 }
 @keyframes clue4-animation {
 	100% {
-		transform: translate(-100%, 0);
+		transform: translate(-70rem, 0);
 	}
 }
 @-webkit-keyframes clue1-animation {
 	100% {
-		transform: translate(50%, 0);
+		transform: translate(20rem, 0);
 	} 
 }
 @-webkit-keyframes clue2-animation {
 	100%{
-		transform: translate(-100%, 0);
+		transform: translate(-80rem, 0);
 	}
 }
 @-webkit-keyframes clue3-animation {
 	100% {
-		transform: translate(60%, 0);
+		transform: translate(20rem, 0);
 	} 
 }
 @-webkit-keyframes clue4-animation {
 	100% {
-		transform: translate(-100%, 0);
+		transform: translate(-70rem, 0);
 	}
 }
 
