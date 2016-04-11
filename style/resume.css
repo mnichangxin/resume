@@ -2,7 +2,8 @@
 
 /* Basic style */
 html, body {
-	height: 100%;
+	width: 100%;
+	min-width: 1280px;
 	font: 10px 'Microsoft YaHei';
 	color: #fff;
 }
@@ -10,9 +11,9 @@ html, body, p, ul, li, a {
 	margin: 0;
 	padding: 0;
 }
-body {
+/*body {
 	min-width: 128rem;
-}
+}*/
 a {
 	text-decoration: none;
 	color: #fff;
