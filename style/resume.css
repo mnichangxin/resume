@@ -112,21 +112,25 @@ li {
 /* page1-animation */
 .head:hover {
 	-webkit-animation: img-rotate linear .5s alternate;
-			animation: img-rotate linear .5s alternate;
+	animation: img-rotate linear .5s alternate;
 }
 .triangle-left {
+	-webkit-animation: triangle-left-animation linear .5s alternate;
 	animation: triangle-left-animation linear .5s alternate;
 }
 .triangle-right {
+	-webkit-animation: triangle-right-animation linear .5s alternate;
 	animation: triangle-right-animation linear .5s alternate;
 }
 .btn {
+	-webkit-animation: btn-animation linear 2s alternate;
 	animation: btn-animation linear 2s alternate;
 }
 .arrow {
+	-webkit-animation: arrow-animation linear .8s infinite;
 	animation: arrow-animation linear .8s infinite;
 }
-@-webkit-keyframes img-rotate {
+@keyframes img-rotate {
 	0% {
 		transform: rotate(0deg);
 	}
@@ -161,6 +165,45 @@ li {
 	}
 }
 @keyframes arrow-animation {
+	100% {
+		bottom: 2rem;
+	}
+}
+@-webkit-keyframes img-rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+@-webkit-keyframes img-rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+@-webkit-keyframes triangle-left-animation {
+	0% {
+		left: -40rem;
+	}
+}
+@-webkit-keyframes triangle-right-animation {
+	0% {
+		right: -40rem;
+	}
+}
+@-webkit-keyframes btn-animation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-webkit-keyframes arrow-animation {
 	100% {
 		bottom: 2rem;
 	}
@@ -264,15 +307,19 @@ li {
 
 /* page2-animation */
 .clue-1 {
+	-webkit-animation: clue1-animation .5s forwards;
 	animation: clue1-animation .5s forwards;
 }
 .clue-2 {
+	-webkit-animation: clue2-animation .5s .5s forwards;
 	animation: clue2-animation .5s .5s forwards;
 }
 .clue-3 {
+	-webkit-animation: clue3-animation .5s 1s forwards;
 	animation: clue3-animation .5s 1s forwards;
 }
 .clue-4 {
+	-webkit-animation: clue4-animation .5s 1.5s forwards;
 	animation: clue4-animation .5s 1.5s forwards;
 }
 @keyframes clue1-animation {
@@ -291,6 +338,26 @@ li {
 	} 
 }
 @keyframes clue4-animation {
+	100% {
+		transform: translate(-100%, 0);
+	}
+}
+@-webkit-keyframes clue1-animation {
+	100% {
+		transform: translate(50%, 0);
+	} 
+}
+@-webkit-keyframes clue2-animation {
+	100%{
+		transform: translate(-100%, 0);
+	}
+}
+@-webkit-keyframes clue3-animation {
+	100% {
+		transform: translate(60%, 0);
+	} 
+}
+@-webkit-keyframes clue4-animation {
 	100% {
 		transform: translate(-100%, 0);
 	}
@@ -423,9 +490,18 @@ li {
 
 /* page5-animation */
 .future {
+	-webkit-animation: future-animation 2s linear;
 	animation: future-animation 2s linear;
 }
 @keyframes future-animation {
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+@-webkit-keyframes future-animation {
 	0%{
 		opacity: 0;
 	}
