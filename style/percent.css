@@ -63,185 +63,187 @@ html,body {
 	line-height: 160px;
 	font-size: 50px;
 	color: #fff;
+	opacity: 0;
 }
 
 /* animation */
-.left-1 {
+
+.left_1 {
 	animation: cl-1 1s linear 1s forwards;
 	border-bottom-color: #008000;
 	border-left-color: #008000;
 }
-.right-1 {
+.right_1 {
 	animation: cr-1 1s linear forwards;
 	border-top-color: #008000;
 	border-right-color: #008000;
 }
-.middle-1 {
+.middle_1 {
 	animation: ml 2s linear forwards;
 	background: #A0C43E;
 }
 
-.left-2 {
+.left_2 {
 	animation: cl-2 1s linear 1s forwards;
 	border-bottom-color: #4AB64A;
 	border-left-color: #4AB64A;
 }
-.right-2 {
+.right_2 {
 	animation: cr-2 1s linear forwards;
 	border-top-color: #4AB64A;
 	border-right-color: #4AB64A;
 }
-.middle-2 {
+.middle_2 {
 	animation: ml 2s linear forwards;
 	background: #A0C43E;
 }
 
-.left-3 {
+.left_3 {
 	animation: cl-3 1s linear 1s forwards;
 	border-bottom-color: #66E3A4;
 	border-left-color: #66E3A4;
 }
-.right-3 {
+.right_3 {
 	animation: cr-3 1s linear forwards;
 	border-top-color: #66E3A4;
 	border-right-color: #66E3A4;
 }
-.middle-3 {
+.middle_3 {
 	animation: ml 2s linear forwards;
 	background: #A0C43E;
 }
 
-.left-4 {
+.left_4 {
 	animation: cl-4 1s linear 1s forwards;
 	border-bottom-color: #66E3A4;
 	border-left-color: #66E3A4;
 }
-.right-4 {
+.right_4 {
 	animation: cr-4 1s linear forwards;
 	border-top-color: #66E3A4;
 	border-right-color: #66E3A4;
 }
-.middle-4 {
+.middle_4 {
 	animation: ml 2s linear forwards;
 	background: #A0C43E;
 }
 
-.left-5 {
+.left_5 {
 	animation: cl-5 1s linear 1s forwards;
 	border-bottom-color: #D48C57;
 	border-left-color: #D48C57;
 }
-.right-5 {
+.right_5 {
 	animation: cr-5 1s linear forwards;
 	border-top-color: #D48C57;
 	border-right-color: #D48C57;
 }
-.middle-5 {
+.middle_5 {
 	animation: ml 2s linear forwards;
 	background: #F18873;
 }
 
-.left-6 {
+.left_6 {
 	animation: cl-6 1s linear 1s forwards;
 	border-bottom-color: #D48C57;
 	border-left-color: #D48C57;
 }
-.right-6 {
+.right_6 {
 	animation: cr-6 1s linear forwards;
 	border-top-color: #D48C57;
 	border-right-color: #D48C57;
 }
-.middle-6 {
+.middle_6 {
 	animation: ml 2s linear forwards;
 	background: #F18873;
 }
 
-.left-7 {
+.left_7 {
 	animation: cl-7 1s linear 1s forwards;
 	border-bottom-color: #66E3A4;
 	border-left-color: #66E3A4;
 }
-.right-7 {
+.right_7 {
 	animation: cr-7 1s linear forwards;
 	border-top-color: #66E3A4;
 	border-right-color: #66E3A4;
 }
-.middle-7 {
+.middle_7 {
 	animation: ml 2s linear forwards;
 	background: #A0C43E;
 }
 
-.left-7 {
+.left_8 {
 	animation: cl-8 1s linear 1s forwards;
 	border-bottom-color: #793517;
 	border-left-color: #793517;
 }
-.right-8 {
+.right_8 {
 	animation: cr-8 1s linear forwards;
 	border-top-color: #793517;
 	border-right-color: #793517;
 }
-.middle-8 {
+.middle_8 {
 	animation: ml 2s linear forwards;
 	background: #F08773;
 }
 
-.left-9 {
+.left_9 {
 	animation: cl-9 1s linear 1s forwards;
 	border-bottom-color: #4AB64A;
 	border-left-color: #4AB64A;
 }
-.right-9 {
+.right_9 {
 	animation: cr-9 1s linear forwards;
 	border-top-color: #4AB64A;
 	border-right-color: #4AB64A;
 }
-.middle-9 {
+.middle_9 {
 	animation: ml 2s linear forwards;
 	background: #A0C43E;
 }
 
-.left-10 {
+.left_10 {
 	animation: cl-10 1s linear 1s forwards;
 	border-bottom-color: #D48C57;
 	border-left-color: #D48C57;
 }
-.right-10 {
+.right_10 {
 	animation: cr-10 1s linear forwards;
 	border-top-color: #D48C57;
 	border-right-color: #D48C57;
 }
-.middle-10 {
+.middle_10 {
 	animation: ml 2s linear forwards;
 	background: #F18873;
 }
 
-.left-11 {
+.left_11 {
 	animation: cl-11 1s linear 1s forwards;
 	border-bottom-color: #D48C57;
 	border-left-color: #D48C57;
 }
-.right-11 {
+.right_11 {
 	animation: cr-11 1s linear forwards;
 	border-top-color: #D48C57;
 	border-right-color: #D48C57;
 }
-.middle-11 {
+.middle_11 {
 	animation: ml 2s linear forwards;
 	background: #F18873;
 }
 
-.left-12 {
+.left_12 {
 	animation: cl-12 1s linear 1s forwards;
 	border-bottom-color: #9C4C30;
 	border-left-color: #9C4C30;
 }
-.right-12 {
+.right_12 {
 	animation: cr-12 1s linear forwards;
 	border-top-color: #9C4C30;
 	border-right-color: #9C4C30;
 }
-.middle-12 {
+.middle_12 {
 	animation: ml 2s linear forwards;
 	background: #F18873;
 }
@@ -388,182 +390,183 @@ html,body {
 }
 
 /* animation-compatible */
-.left-1 {
+
+.left_1 {
 	-webkit-animation: cl-1 1s linear 1s forwards;
 	border-bottom-color: #008000;
 	border-left-color: #008000;
 }
-.right-1 {
+.right_1 {
 	-webkit-animation: cr-1 1s linear forwards;
 	border-top-color: #008000;
 	border-right-color: #008000;
 }
-.middle-1 {
+.middle_1 {
 	-webkit-animation: ml 2s linear forwards;
 	background: #A0C43E;
 }
 
-.left-2 {
+.left_2 {
 	-webkit-animation: cl-2 1s linear 1s forwards;
 	border-bottom-color: #4AB64A;
 	border-left-color: #4AB64A;
 }
-.right-2 {
+.right_2 {
 	-webkit-animation: cr-2 1s linear forwards;
 	border-top-color: #4AB64A;
 	border-right-color: #4AB64A;
 }
-.middle-2 {
+.middle_2 {
 	-webkit-animation: ml 2s linear forwards;
 	background: #A0C43E;
 }
 
-.left-3 {
+.left_3 {
 	-webkit-animation: cl-3 1s linear 1s forwards;
 	border-bottom-color: #66E3A4;
 	border-left-color: #66E3A4;
 }
-.right-3 {
+.right_3 {
 	-webkit-animation: cr-3 1s linear forwards;
 	border-top-color: #66E3A4;
 	border-right-color: #66E3A4;
 }
-.middle-3 {
+.middle_3 {
 	-webkit-animation: ml 2s linear forwards;
 	background: #A0C43E;
 }
 
-.left-4 {
+.left_4 {
 	-webkit-animation: cl-4 1s linear 1s forwards;
 	border-bottom-color: #66E3A4;
 	border-left-color: #66E3A4;
 }
-.right-4 {
+.right_4 {
 	-webkit-animation: cr-4 1s linear forwards;
 	border-top-color: #66E3A4;
 	border-right-color: #66E3A4;
 }
-.middle-4 {
+.middle_4 {
 	-webkit-animation: ml 2s linear forwards;
 	background: #A0C43E;
 }
 
-.left-5 {
+.left_5 {
 	-webkit-animation: cl-5 1s linear 1s forwards;
 	border-bottom-color: #D48C57;
 	border-left-color: #D48C57;
 }
-.right-5 {
+.right_5 {
 	-webkit-animation: cr-5 1s linear forwards;
 	border-top-color: #D48C57;
 	border-right-color: #D48C57;
 }
-.middle-5 {
+.middle_5 {
 	-webkit-animation: ml 2s linear forwards;
 	background: #F18873;
 }
 
-.left-6 {
+.left_6 {
 	-webkit-animation: cl-6 1s linear 1s forwards;
 	border-bottom-color: #D48C57;
 	border-left-color: #D48C57;
 }
-.right-6 {
+.right_6 {
 	-webkit-animation: cr-6 1s linear forwards;
 	border-top-color: #D48C57;
 	border-right-color: #D48C57;
 }
-.middle-6 {
+.middle_6 {
 	-webkit-animation: ml 2s linear forwards;
 	background: #F18873;
 }
 
-.left-7 {
+.left_7 {
 	-webkit-animation: cl-7 1s linear 1s forwards;
 	border-bottom-color: #66E3A4;
 	border-left-color: #66E3A4;
 }
-.right-7 {
+.right_7 {
 	-webkit-animation: cr-7 1s linear forwards;
 	border-top-color: #66E3A4;
 	border-right-color: #66E3A4;
 }
-.middle-7 {
+.middle_7 {
 	-webkit-animation: ml 2s linear forwards;
 	background: #A0C43E;
 }
 
-.left-7 {
+.left_8 {
 	-webkit-animation: cl-8 1s linear 1s forwards;
 	border-bottom-color: #793517;
 	border-left-color: #793517;
 }
-.right-8 {
+.right_8 {
 	-webkit-animation: cr-8 1s linear forwards;
 	border-top-color: #793517;
 	border-right-color: #793517;
 }
-.middle-8 {
+.middle_8 {
 	-webkit-animation: ml 2s linear forwards;
 	background: #F08773;
 }
 
-.left-9 {
+.left_9 {
 	-webkit-animation: cl-9 1s linear 1s forwards;
 	border-bottom-color: #4AB64A;
 	border-left-color: #4AB64A;
 }
-.right-9 {
+.right_9 {
 	-webkit-animation: cr-9 1s linear forwards;
 	border-top-color: #4AB64A;
 	border-right-color: #4AB64A;
 }
-.middle-9 {
+.middle_9 {
 	-webkit-animation: ml 2s linear forwards;
 	background: #A0C43E;
 }
 
-.left-10 {
+.left_10 {
 	-webkit-animation: cl-10 1s linear 1s forwards;
 	border-bottom-color: #D48C57;
 	border-left-color: #D48C57;
 }
-.right-10 {
+.right_10 {
 	-webkit-animation: cr-10 1s linear forwards;
 	border-top-color: #D48C57;
 	border-right-color: #D48C57;
 }
-.middle-10 {
+.middle_10 {
 	-webkit-animation: ml 2s linear forwards;
 	background: #F18873;
 }
 
-.left-11 {
+.left_11 {
 	-webkit-animation: cl-11 1s linear 1s forwards;
 	border-bottom-color: #D48C57;
 	border-left-color: #D48C57;
 }
-.right-11 {
+.right_11 {
 	-webkit-animation: cr-11 1s linear forwards;
 	border-top-color: #D48C57;
 	border-right-color: #D48C57;
 }
-.middle-11 {
+.middle_11 {
 	-webkit-animation: ml 2s linear forwards;
 	background: #F18873;
 }
 
-.left-12 {
+.left_12 {
 	-webkit-animation: cl-12 1s linear 1s forwards;
 	border-bottom-color: #9C4C30;
 	border-left-color: #9C4C30;
 }
-.right-12 {
+.right_12 {
 	-webkit-animation: cr-12 1s linear forwards;
 	border-top-color: #9C4C30;
 	border-right-color: #9C4C30;
 }
-.middle-12 {
+.middle_12 {
 	-webkit-animation: ml 2s linear forwards;
 	background: #F18873;
 }
@@ -708,3 +711,4 @@ html,body {
 		transform: rotate(-27deg);
 	}
 }
+*/
