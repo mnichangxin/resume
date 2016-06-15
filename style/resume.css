@@ -19,6 +19,15 @@ li {
 	list-style: none;
 }
 
+/* mask */
+.mask {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: #302F2B;
+	z-index: 2;
+}
+
 /* page1 */
 .page1 {
 	height: 92rem;
